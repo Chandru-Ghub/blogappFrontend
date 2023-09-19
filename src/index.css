@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.active{
+  /* background-color: rgb(68, 114, 114); */
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(13, 140, 244);
+  font-size: 16PX;
+  text-decoration: underline;
+}
+
+.normal{
+  text-decoration: none;
+  padding: 10px;
+  color:rgb(255, 255, 255);
+  /* margin-right: 10px; */
+  font-size: 16px;
+}
+.normal:hover{
+  color: rgb(13, 140, 244);
+}
+
+.reg_error{
+  font-size: 13px;
+  color: red;
+}
+
+
+/* Post form style */
+
+.postForm{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 251, 251);
+    border: 1px solid green;
+    padding: 20px;
+        /* align-items: center;
+    justify-content: center; */
+    >input{
+      margin-bottom: 10px;
+      outline: none;
+     
+    }
+    >textarea{
+      margin-bottom: 20px;
+      padding: 10px 0 0 10px;
+      outline: none;
+    }
+    >button{
+      background-color: rgb(78, 78, 234);
+      border: none;
+      color: white;
+      padding: 5px;
+    }
+    >h3{
+      color: rgb(11, 201, 11);
+      text-align: center;
+      margin-bottom: 10px;
+      font-family: sans-serif;
+    }
+    >.title{
+        padding: 10px;
+    }
+    >.file{
+      /* padding: 5px;
+      background-color: red; */
+    }
+}
+
+.post{
+  /* background-color: red; */
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* style user collection */
+.userList{
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.userCol{
+  color: white;
+}
+
+.icontab{
+display: flex;
+background-color: rgb(236, 239, 236);
+padding: 5px;
+align-items: center;
+/* font-weight: 600; */
+
+  >.usericon{
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+  }
+}
+
+.usericon{
+  /* background-color: red; */
+  outline: 2px solid rgb(224, 145, 204);
+  border-radius: 50%;
+}
+
+.icons{
+  padding: 5px;
+  display: flex;
+  column-gap: 15px;
+  >span{
+    font-weight: 300;
+  }
+}
+.send{
+  transform: rotate(-25deg);
+  margin-top: -5px;
+
+ 
+  /* font-size: 30px; */
+}
+.des{
+  padding-left: 7px;
+}
+.outimg{
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+.out{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+background: radial-gradient(rgb(255, 255, 255), rgb(244, 176, 243), rgb(232, 110, 243));
+
+}
+.navtop{
+  display: flex;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 10px; */
+}
+.inslogo{
+  /* margin-left: -100px; */
+  width: 15%;
+  min-width: 120px;
+}
+.logout{
+  cursor: pointer;
+  opacity: .9;
+  font-size: 25px;
+  /* margin-right: 30px; */
+}
+.logout:hover{
+  color: rgb(13, 140, 244);
+}
+
+.profile{
+  /* margin-right: 30px; */
+  cursor: pointer;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+
+
+/* PROFILE STYLE */
+
+.profileStyle{
+
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.dp{
+  width: 200px;
+  height: 200px;
+  border-radius:50%
+}
+
+.navdp{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+ 
+}
+.online{
+  /* background-color: red; */
+  position: relative;
+}
+
+.dot{
+  width: 10px;
+  height: 10px;
+  background-color: rgb(63, 233, 11);
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+}
+.settings{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 50px;
+  padding: 0 10px;
+}
